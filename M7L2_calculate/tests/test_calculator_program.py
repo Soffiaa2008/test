@@ -5,6 +5,7 @@ def test_calculate_addition():
     assert calculate(1, 1, '+') == 2
 
 def test_calculate_division():
+    assert calculate(8, 0, '/') == "деление на ноль нельзя"
     assert calculate(8, 2, '/') == 4
 
 
